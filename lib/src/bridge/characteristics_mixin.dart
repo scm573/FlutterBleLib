@@ -333,7 +333,7 @@ class CharacteristicWithValueAndTransactionId extends CharacteristicWithValue {
   ) : super.fromJson(jsonObject, service, manager);
 
   CharacteristicWithValueAndTransactionId setTransactionId(
-      String transactionId) {
+      String? transactionId) {
     _transactionId = transactionId;
     return this;
   }
